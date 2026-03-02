@@ -1,0 +1,122 @@
+[
+    {
+        "player_id": 1,
+        "player_img": "https://i.ibb.co.com/bj77hC10/4530224-1081978418.jpg",
+        "player_name": "Babar Azam",
+        "player_country": "Pakistan",
+        "player_category": "Batsman",
+        "ratting": 92,
+        "batting_style": "Right-hand bat",
+        "price": "$120000"
+    },
+    {
+        "player_id": 2,
+        "player_img": "https://i.ibb.co.com/MyszKJqY/rohit-sharma-272814651-16x9-0.jpg",
+        "player_name": "Rohit Sharma",
+        "player_country": "India",
+        "player_category": "Batsman",
+        "ratting": 91,
+        "batting_style": "Right-hand bat",
+        "price": "$145000"
+    },
+    {
+        "player_id": 3,
+        "player_img": "https://i.ibb.co.com/cKFb6bmV/content-image-900a7cc0-bad4-47c9-8f5f-f38aed140bfa.jpg",
+        "player_name": "Virat Kohli",
+        "player_country": "India",
+        "player_category": "Batsman",
+        "ratting": 94,
+        "batting_style": "Right-hand bat",
+        "price": "$150000"
+    },
+    {
+        "player_id": 4,
+        "player_img": "https://example.com/images/player3.jpg",
+        "player_name": "Joe Root",
+        "player_country": "England",
+        "player_category": "Batsman",
+        "ratting": 90,
+        "batting_style": "Right-hand bat",
+        "price": "$110000"
+    },
+    {
+        "player_id": 5,
+        "player_img": "https://i.ibb.co.com/DHQGrRPR/b1675cafc181b7e440d884094f851ff8.jpg",
+        "player_name": "Kane Williamson",
+        "player_country": "New Zealand",
+        "player_category": "Batsman",
+        "ratting": 91,
+        "batting_style": "Right-hand bat",
+        "price": "$115000"
+    },
+    {
+        "player_id": 6,
+        "player_img": "https://i.ibb.co.com/4nMHbf5v/CRICKET-RSA-PAK-54-1733889893346-1733890095621.jpg",
+        "player_name": "Mohammad Rizwan",
+        "player_country": "Pakistan",
+        "player_category": "Wicket-Keeper",
+        "ratting": 91,
+        "batting_style": "Right-hand bat",
+        "price": "$125000"
+    },
+    {
+        "player_id": 7,
+        "player_img": "https://i.ibb.co.com/WpRS3MP4/Mustafizur-Wows-on-ILT20-Debut-Capitals-Lose-Again-1765090487.jpg",
+        "player_name": "Mustafizur Rahman",
+        "player_country": "Bangladesh",
+        "player_category": "Bowler",
+        "ratting": 89,
+        "batting_style": "Left-hand bat",
+        "price": "$130000"
+    },
+    {
+        "player_id": 8,
+        "player_img": "https://example.com/images/player7.jpg",
+        "player_name": "Ben Stokes",
+        "player_country": "England",
+        "player_category": "All-Rounder",
+        "ratting": 87,
+        "batting_style": "Left-hand bat",
+        "price": "$125000"
+    },
+    {
+        "player_id": 9,
+        "player_img": "https://i.ibb.co.com/MDYkxKdq/mixcollage-27-jan-2025-04-39-pm-8430-1737976189.jpg",
+        "player_name": "Jasprit Bumrah",
+        "player_country": "India",
+        "player_category": "Bowler",
+        "ratting": 93,
+        "batting_style": "Right-hand bat",
+        "price": "$140000"
+    },
+    {
+        "player_id": 10,
+        "player_img": "https://example.com/images/liton_das.jpg",
+        "player_name": "Litton Kumar Das",
+        "player_country": "Bangladesh",
+        "player_category": "Wicket-Keeper",
+        "ratting": 87,
+        "batting_style": "Right-hand bat",
+        "price": "$115000"
+    },
+    {
+        "player_id": 11,
+        "player_img": "https://i.ibb.co.com/d4fX4whg/ANI-20250609074953.jpg",
+        "player_name": "Jos Buttler",
+        "player_country": "England",
+        "player_category": "Wicket-Keeper",
+        "ratting": 90,
+        "batting_style": "Right-hand bat",
+        "price": "$135000"
+    },
+    {
+        "player_id": 12,
+        "player_img": "https://example.com/images/player12.jpg",
+        "player_name": "Quinton de Kock",
+        "player_country": "South Africa",
+        "player_category": "Wicket-Keeper",
+        "ratting": 88,
+        "batting_style": "Left-hand bat",
+        "price": "$105000"
+    }
+]

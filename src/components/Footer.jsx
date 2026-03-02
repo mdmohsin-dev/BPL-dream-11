@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="bg-[#06091A] mt-28">
             <div className="max-w-330 w-full mx-auto px-4 md:px-6 xl:px-0 pt-12">
                 <img className="flex justify-self-center" src={footerLogo} alt="" />
-            <div className="flex justify-between items-start pt-14">
-                <div className="w-1/4">
+            <div className="flex flex-col lg:flex-row gap-9 justify-between items-start pt-14">
+                <div className="lg:w-1/4">
                     <h3 className="text-xl font-semibold">About us</h3>
                     <p className=" pt-4">We are a passionate team dedicated to providing the best services to our customers.</p>
                 </div>
@@ -22,14 +22,14 @@ const Footer = () => {
                 <div>
                     <h3 className="text-xl font-semibold">Subscribe</h3>
                     <div className="pt-4">
-                        <p className="w-">Subscribe to our newsletter for the <br /> latest updates.</p>
+                        <p>Subscribe to our newsletter for the <br /> latest updates.</p>
                     </div>
                 </div>
             </div>
             </div>
             <div className="divider pt-16"></div>
 
-                <p className="text-center py-8">&copy; {new Date().getFullYear()} Your Company All Rights Reserved.</p>
+                <p className="text-center py-8">&copy; {new Date().getFullYear()} Dream 11 Cricket Team All Rights Reserved.</p>
             
         </div>
     );

@@ -13,7 +13,7 @@ const Players = ({ handleSelectPlayer }) => {
 
     return (
         <div className='mt-8 text-black'>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
                     players.map(player => <Player player={player} handleSelectPlayer={handleSelectPlayer}></Player>)
                 }

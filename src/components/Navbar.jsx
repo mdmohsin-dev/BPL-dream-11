@@ -36,7 +36,7 @@ const Navbar = ({coin}) => {
                         <li className="text-[16px]"><a>Schedules</a></li>
                     </ul>
                 </div>
-                <div className="flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-lg ml-5 font-semibold">{coin} coin <img src={coinLogo} alt="" /></div>
+                <div className="flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-lg ml-5 font-semibold">{coin}  <img src={coinLogo} alt="" /></div>
             </div>
 
         </div>

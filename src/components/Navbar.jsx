@@ -1,7 +1,7 @@
 import logo from "../assets/images/logo.png"
 import coinLogo from "../assets/images/dollar.png"
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
     return (
         <div className="navbar text-black">
             <div className="navbar-start">
@@ -36,7 +36,7 @@ const Navbar = () => {
                         <li className="text-[16px]"><a>Schedules</a></li>
                     </ul>
                 </div>
-                <div className="flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-lg ml-5 font-semibold">0 coin <img src={coinLogo} alt="" /></div>
+                <div className="flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-lg ml-5 font-semibold">{coin} coin <img src={coinLogo} alt="" /></div>
             </div>
 
         </div>

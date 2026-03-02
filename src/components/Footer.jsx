@@ -2,8 +2,8 @@ import footerLogo from "../assets/images/logo-footer.png"
 
 const Footer = () => {
     return (
-        <div className="bg-[#06091A]">
-            <div className="max-w-330 w-full mx-auto px-4 md:px-6 xl:px-0">
+        <div className="bg-[#06091A] mt-28">
+            <div className="max-w-330 w-full mx-auto px-4 md:px-6 xl:px-0 pt-12">
                 <img className="flex justify-self-center" src={footerLogo} alt="" />
             <div className="flex justify-between items-start pt-14">
                 <div className="w-1/4">
@@ -27,6 +27,10 @@ const Footer = () => {
                 </div>
             </div>
             </div>
+            <div className="divider pt-16"></div>
+
+                <p className="text-center py-8">&copy; {new Date().getFullYear()} Your Company All Rights Reserved.</p>
+            
         </div>
     );
 };

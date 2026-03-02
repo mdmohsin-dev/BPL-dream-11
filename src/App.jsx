@@ -11,23 +11,40 @@ function App() {
 
   const [selectedPlayers, setSelectedPlayers] = useState([])
 
+  const [coin, setCoin] = useState(0)
+
 
   const handleSelectPlayer = (player) => {
+    const remainingCoin = coin - player.price;
+    if (coin <= player.price) {
+      alert("You have do not sufficient balance")
+      return
+    }
+    setCoin(remainingCoin)
     const newPlayer = [...selectedPlayers, player]
     setSelectedPlayers(newPlayer)
   }
 
 
-  const handleRemovePlayer =(player)=>{
+  const handleRemovePlayer = (player) => {
     const remainingPlayer = selectedPlayers.filter(p => p.player_id !== player.player_id)
     setSelectedPlayers(remainingPlayer)
   }
 
+  const handleCoin = (newCoin) => {
+    if (coin >= 2000000) {
+      alert("You don't get more")
+      return
+    }
+    setCoin(coin + newCoin)
+  }
+
+
   return (
     <div className="bg-white">
       <div className="max-w-330 w-full mx-auto px-4 md:px-6 xl:px-0">
-        <Navbar></Navbar>
-        <Banner></Banner>
+        <Navbar coin={coin}></Navbar>
+        <Banner handleCoin={handleCoin}></Banner>
         <div className='flex justify-between items-center mt-20 text-black'>
           <h3 className='text-3xl font-bold'>{activeSection === 'available' ? 'Available Players' : `Selected Players( ${selectedPlayers.length}/11)`}</h3>
           <div className='w-64 border border-gray-300 rounded-xl flex text-lg cursor-pointer'>
@@ -45,9 +62,9 @@ function App() {
             )
           }
           {
-            activeSection === 'selected' && <SelectedPlayers 
-            handleRemovePlayer={handleRemovePlayer}
-            selectedPlayers={selectedPlayers}></SelectedPlayers>
+            activeSection === 'selected' && <SelectedPlayers
+              handleRemovePlayer={handleRemovePlayer}
+              selectedPlayers={selectedPlayers}></SelectedPlayers>
           }
         </div>
       </div>

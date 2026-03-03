@@ -36,7 +36,7 @@
         "player_category": "Wicket-Keeper",
         "ratting": 89,
         "batting_style": "Right-hand bat",
-        "price": "$125000"
+        "price": 125000
     },
     {
         "player_id": 5,
@@ -95,7 +95,7 @@
         "player_category": "Wicket-Keeper",
         "ratting": 86,
         "batting_style": "Right-hand bat",
-        "price": "$110000"
+        "price": 110000
     },
     {
         "player_id": 11,

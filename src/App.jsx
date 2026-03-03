@@ -51,7 +51,7 @@ function App() {
         <Navbar coin={coin}></Navbar>
         <Banner handleCoin={handleCoin}></Banner>
 
-        <div className='flex flex-col gap-6 md:gap-0 md:flex-row  justify-between items-center mt-20 text-black'>
+        <div className='flex flex-col-reverse gap-6 md:gap-0 md:flex-row  justify-between items-center mt-20 text-black'>
           <h3 className='text-3xl font-bold'>{activeSection === 'available' ? 'Available Players' : `Selected Players(${selectedPlayers.length})`}</h3>
 
           <div className='w-64 border border-gray-300 rounded-xl flex text-lg cursor-pointer'>

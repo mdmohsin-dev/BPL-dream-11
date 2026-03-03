@@ -26,7 +26,7 @@ const Player = ({ player,handleSelectPlayer }) => {
             <div className="flex justify-between items-center pt-5">
                 <p className="font-bold ">Price:${price}</p>
                 <button onClick={()=>handleSelectPlayer(player)}
-                className="bg-[#E7FE29] text-black border border-gray-300 py-1 px-2 cursor-pointer rounded-lg">Choose player</button>
+                className="bg-[#E7FE29] text-black border border-gray-300 py-1 px-2 cursor-pointer rounded-lg hover:-translate-y-1 transition">Choose player</button>
             </div>
         </div>
     );

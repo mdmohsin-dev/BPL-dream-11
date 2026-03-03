@@ -13,6 +13,8 @@ function App() {
 
   const [coin, setCoin] = useState(0)
 
+  const [claim, setClaim] = useState(true)
+
 
   const handleSelectPlayer = (player) => {
     const remainingCoin = coin - player.price;
@@ -32,11 +34,14 @@ function App() {
   }
 
   const handleCoin = (newCoin) => {
-    if (coin + newCoin >= 2100000) {
-      alert("You don't get more")
+    setClaim(false)
+    if (claim) {
+      setCoin(coin + newCoin)
+    }
+    else {
+      alert("You have alaready claimd")
       return
     }
-    setCoin(coin + newCoin)
   }
 
 
@@ -47,7 +52,7 @@ function App() {
         <Banner handleCoin={handleCoin}></Banner>
 
         <div className='flex flex-col gap-6 md:gap-0 md:flex-row  justify-between items-center mt-20 text-black'>
-          <h3 className='text-3xl font-bold'>{activeSection === 'available' ? 'Available Players' : `Selected Players( ${selectedPlayers.length}/11)`}</h3>
+          <h3 className='text-3xl font-bold'>{activeSection === 'available' ? 'Available Players' : `Selected Players(${selectedPlayers.length})`}</h3>
 
           <div className='w-64 border border-gray-300 rounded-xl flex text-lg cursor-pointer'>
             <button onClick={() => setActiveSection('available')}

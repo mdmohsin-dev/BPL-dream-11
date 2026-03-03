@@ -1,7 +1,7 @@
 [
     {
         "player_id": 1,
-        "player_img": "https://i.ibb.co.com/bj77hC10/4530224-1081978418.jpg",
+        "player_img": "https://i.ibb.co.com/Y41hJpPC/4530224-1081978418.jpg",
         "player_name": "Babar Azam",
         "player_country": "Pakistan",
         "player_category": "Batsman",
@@ -11,7 +11,7 @@
     },
     {
         "player_id": 2,
-        "player_img": "https://i.ibb.co.com/MyszKJqY/rohit-sharma-272814651-16x9-0.jpg",
+        "player_img": "https://i.ibb.co.com/vxt5ZsFV/G0exf-Df-Xo-AEUy-4.jpg",
         "player_name": "Rohit Sharma",
         "player_country": "India",
         "player_category": "Batsman",
@@ -21,7 +21,7 @@
     },
     {
         "player_id": 3,
-        "player_img": "https://i.ibb.co.com/cKFb6bmV/content-image-900a7cc0-bad4-47c9-8f5f-f38aed140bfa.jpg",
+        "player_img": "https://i.ibb.co.com/W4sy64ss/ca408f501dcedd5607cca73ff241de29.jpg",
         "player_name": "Virat Kohli",
         "player_country": "India",
         "player_category": "Batsman",
@@ -30,14 +30,13 @@
         "price": 150000
     },
     {
-        "player_id": 4,
-        "player_img": "https://example.com/images/player3.jpg",
-        "player_name": "Joe Root",
-        "player_country": "England",
-        "player_category": "Batsman",
-        "ratting": 90,
+        "player_img": "https://i.ibb.co.com/PZ7KFGMF/KL-Rahul-2025-07-39404b4fb368cd6a5e213914936d843a.jpg",
+        "player_name": "KL Rahul",
+        "player_country": "India",
+        "player_category": "Wicket-Keeper",
+        "ratting": 89,
         "batting_style": "Right-hand bat",
-        "price": "$110000"
+        "price": "$125000"
     },
     {
         "player_id": 5,
@@ -51,7 +50,7 @@
     },
     {
         "player_id": 6,
-        "player_img": "https://i.ibb.co.com/4nMHbf5v/CRICKET-RSA-PAK-54-1733889893346-1733890095621.jpg",
+        "player_img": "https://i.ibb.co.com/k2gZk6S4/3429261-2035151268.jpg",
         "player_name": "Mohammad Rizwan",
         "player_country": "Pakistan",
         "player_category": "Wicket-Keeper",
@@ -61,7 +60,7 @@
     },
     {
         "player_id": 7,
-        "player_img": "https://i.ibb.co.com/WpRS3MP4/Mustafizur-Wows-on-ILT20-Debut-Capitals-Lose-Again-1765090487.jpg",
+        "player_img": "https://i.ibb.co.com/chSWrs3H/383539-6.jpg",
         "player_name": "Mustafizur Rahman",
         "player_country": "Bangladesh",
         "player_category": "Bowler",
@@ -71,7 +70,7 @@
     },
     {
         "player_id": 8,
-        "player_img": "https://example.com/images/player7.jpg",
+        "player_img": "https://i.ibb.co.com/gbx6YbrF/84522a0c15e2730e8137ef6162579936.jpg",
         "player_name": "Ben Stokes",
         "player_country": "England",
         "player_category": "All-Rounder",
@@ -90,14 +89,13 @@
         "price": 140000
     },
     {
-        "player_id": 10,
-        "player_img": "https://example.com/images/liton_das.jpg",
-        "player_name": "Litton Kumar Das",
-        "player_country": "Bangladesh",
+        "player_img": "https://i.ibb.co.com/Tq4PkN8M/kusal-mendis-impressed-by-psl-pace-power.jpg",
+        "player_name": "Kusal Mendis",
+        "player_country": "Sri Lanka",
         "player_category": "Wicket-Keeper",
-        "ratting": 87,
+        "ratting": 86,
         "batting_style": "Right-hand bat",
-        "price": 115000
+        "price": "$110000"
     },
     {
         "player_id": 11,

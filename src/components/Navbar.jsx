@@ -1,7 +1,7 @@
 import logo from "../assets/images/logo.png"
 import coinLogo from "../assets/images/dollar.png"
 
-const Navbar = ({coin}) => {
+const Navbar = ({ coin }) => {
     return (
         <div className="navbar text-black">
             <div className="navbar-start">
@@ -11,16 +11,11 @@ const Navbar = ({coin}) => {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        className="menu menu-sm dropdown-content bg-[#CBDF27] rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li className="text-[16px]"><a>Home</a></li>
+                        <li className="text-[16px]"><a>Fixture</a></li>
+                        <li className="text-[16px]"><a>Teams</a></li>
+                        <li className="text-[16px]"><a>Schedules</a></li>
                     </ul>
                 </div>
                 <div>

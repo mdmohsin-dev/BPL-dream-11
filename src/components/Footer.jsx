@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <div className="divider pt-16"></div>
 
-                <p className="text-center py-8">&copy; {new Date().getFullYear()} Dream 11 Cricket Team All Rights Reserved.</p>
+                <p className="text-center py-8 text-sm px-1">&copy; {new Date().getFullYear()} Dream 11 Cricket Team All Rights Reserved.</p>
             
         </div>
     );

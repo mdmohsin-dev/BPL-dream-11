@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Banner from "./components/Banner"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
@@ -16,21 +16,31 @@ function App() {
   const [claim, setClaim] = useState(true)
 
 
+  useEffect(() => {
+    const savedPlayer = localStorage.getItem("player")
+    if (savedPlayer) {
+      setSelectedPlayers(JSON.parse(savedPlayer))
+    }
+  }, [])
+
   const handleSelectPlayer = (player) => {
     const remainingCoin = coin - player.price;
-    if (coin <= player.price) {
+    if (coin < player.price) {
       alert("You have do not sufficient balance")
       return
     }
     setCoin(remainingCoin)
+    
     const newPlayer = [...selectedPlayers, player]
     setSelectedPlayers(newPlayer)
+    localStorage.setItem("player", JSON.stringify(newPlayer))
   }
 
 
   const handleRemovePlayer = (player) => {
     const remainingPlayer = selectedPlayers.filter(p => p.player_id !== player.player_id)
     setSelectedPlayers(remainingPlayer)
+    localStorage.setItem("player", JSON.stringify(remainingPlayer))
   }
 
   const handleCoin = (newCoin) => {

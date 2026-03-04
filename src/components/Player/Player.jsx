@@ -6,7 +6,7 @@ const Player = ({ player,handleSelectPlayer }) => {
     const { player_img, player_name, player_country, player_category, ratting, batting_style, price } = player
 
     return (
-        <div className='w-full border border-gray-300 rounded-2xl p-4 text-black'>
+        <div className='w-full border border-gray-300 rounded-2xl p-4 text-black hover:shadow-xl transition duration-300'>
             <img className='w-full h-64 rounded-2xl ' src={player_img} alt="" />
             <div className="flex items-center gap-3 pt-6">
                 <FaUser></FaUser>

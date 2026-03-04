@@ -23,6 +23,15 @@ function App() {
     }
   }, [])
 
+
+  useEffect(() => {
+    const storedCoin = localStorage.getItem('coin')
+    if (storedCoin) {
+      setCoin(parseInt(storedCoin))
+    }
+  }, [])
+
+
   const handleSelectPlayer = (player) => {
     const remainingCoin = coin - player.price;
     if (coin < player.price) {
@@ -30,7 +39,8 @@ function App() {
       return
     }
     setCoin(remainingCoin)
-    
+    localStorage.setItem("coin",remainingCoin)
+
     const newPlayer = [...selectedPlayers, player]
     setSelectedPlayers(newPlayer)
     localStorage.setItem("player", JSON.stringify(newPlayer))
@@ -46,7 +56,9 @@ function App() {
   const handleCoin = (newCoin) => {
     setClaim(false)
     if (claim) {
-      setCoin(coin + newCoin)
+      const totalCoin = coin + newCoin
+      setCoin(totalCoin)
+      localStorage.setItem("coin", totalCoin)
     }
     else {
       alert("You have alaready claimd")

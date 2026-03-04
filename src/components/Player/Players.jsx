@@ -1,15 +1,21 @@
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 import Player from "./Player";
 
-const Players = ({ handleSelectPlayer }) => {
+const playersPromis = fetch("players.json").then(res => res.json())
 
-    const [players, setPlayers] = useState([])
+const Players = ({ handleSelectPlayer, }) => {
 
-    useEffect(() => {
-        fetch('players.json')
-            .then(res => res.json())
-            .then(data => setPlayers(data))
-    }, [])
+    // const [players, setPlayers] = useState([])
+
+    // useEffect(() => {
+    //     fetch('players.json')
+    //         .then(res => res.json())
+    //         .then(data => setPlayers(data))
+    // }, [])
+
+
+    const players = use(playersPromis)
+    console.log(players)
 
     return (
         <div className='mt-8 text-black'>

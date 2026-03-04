@@ -15,7 +15,6 @@ const Players = ({ handleSelectPlayer, }) => {
 
 
     const players = use(playersPromis)
-    console.log(players)
 
     return (
         <div className='mt-8 text-black'>

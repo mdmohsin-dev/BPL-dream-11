@@ -30,6 +30,7 @@
         "price": 150000
     },
     {
+        "player_id": 4,
         "player_img": "https://i.ibb.co.com/PZ7KFGMF/KL-Rahul-2025-07-39404b4fb368cd6a5e213914936d843a.jpg",
         "player_name": "KL Rahul",
         "player_country": "India",
@@ -89,6 +90,7 @@
         "price": 140000
     },
     {
+        "player_id": 10,
         "player_img": "https://i.ibb.co.com/Tq4PkN8M/kusal-mendis-impressed-by-psl-pace-power.jpg",
         "player_name": "Kusal Mendis",
         "player_country": "Sri Lanka",
